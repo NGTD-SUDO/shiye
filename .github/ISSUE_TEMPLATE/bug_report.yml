@@ -1,0 +1,49 @@
+name: Bug 报告
+description: 报告一个可复现的问题
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！提交前请确认：
+        - **不要贴任何密钥**（`.env` 内容、API key、隧道地址）
+        - 安全漏洞请走 Security → Report a vulnerability，不要开公开 Issue
+  - type: input
+    id: version
+    attributes:
+      label: 版本 / 提交
+      description: git 提交号或 App 版本号
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: 出现在哪端
+      options: [Android App, Windows 桌面端, 后端 API, 部署/构建]
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. ...
+        2. ...
+        3. 实际看到 ...
+        4. 期望看到 ...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 报错文字 / 日志
+      description: 贴原文（脱敏后）。截图也可以。
+    validations:
+      required: false
+  - type: input
+    id: env
+    attributes:
+      label: 环境
+      placeholder: 例：Android 14 / Flutter 3.44.6；Ubuntu 24.04 / Python 3.13
+    validations:
+      required: false

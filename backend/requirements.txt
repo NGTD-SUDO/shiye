@@ -1,0 +1,12 @@
+# 拾页后端依赖
+# 默认 OCR=百度手写 API（M0 实测结论，见 docs/m0-ocr-选型结论.md）
+# 如需离线 RapidOCR，请额外安装 requirements-rapidocr.txt（需下载约 300MB 模型）
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+sqlalchemy>=2.0.0
+python-jose[cryptography]>=3.3.0
+python-multipart>=0.0.12
+pillow>=11.0.0
+httpx>=0.28.0
+python-dotenv>=1.0.0
+pytest>=8.0.0

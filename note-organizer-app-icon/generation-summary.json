@@ -1,0 +1,57 @@
+{
+  "skill": {
+    "name": "solo-graphic-generation",
+    "version": "2026.08.06.21.24.57"
+  },
+  "size": {
+    "requestedVerbatim": "512×512",
+    "actualToolImageSize": "1920x1920",
+    "userConfirmedDifference": true,
+    "rejectionReason": "image size must be at least 3,686,400 pixels"
+  },
+  "assetCount": 6,
+  "assets": [
+    {
+      "filename": "app-icon-warm.jpg",
+      "title": "暖色笔记",
+      "intendedSize": "1920x1920",
+      "status": "generated",
+      "nodeId": "image-001"
+    },
+    {
+      "filename": "app-icon-cool.jpg",
+      "title": "冷色钢笔",
+      "intendedSize": "1920x1920",
+      "status": "generated",
+      "nodeId": "image-002"
+    },
+    {
+      "filename": "app-icon-natural.jpg",
+      "title": "自然书签",
+      "intendedSize": "1920x1920",
+      "status": "generated",
+      "nodeId": "image-003"
+    },
+    {
+      "filename": "app-icon-icy-blue.jpg",
+      "title": "冰蓝笔记",
+      "intendedSize": "1920x1920",
+      "status": "generated",
+      "nodeId": "image-004"
+    },
+    {
+      "filename": "app-icon-misty-lavender.jpg",
+      "title": "雾紫铅笔",
+      "intendedSize": "1920x1920",
+      "status": "generated",
+      "nodeId": "image-005"
+    },
+    {
+      "filename": "app-icon-mint-teal.jpg",
+      "title": "薄荷青回形针",
+      "intendedSize": "1920x1920",
+      "status": "generated",
+      "nodeId": "image-006"
+    }
+  ]
+}

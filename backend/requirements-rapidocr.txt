@@ -1,0 +1,5 @@
+# 离线 OCR 引擎（RapidOCR，基于 PaddleOCR ONNX 模型）
+# 仅当 SHIYE_OCR=rapidocr 时需要安装；默认走百度，服务器不必白装 300MB
+# 安装命令：pip install -r requirements-rapidocr.txt
+-r requirements.txt
+rapidocr_onnxruntime>=1.4.4

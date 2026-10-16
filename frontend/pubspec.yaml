@@ -1,0 +1,35 @@
+name: shiye_app
+description: "拾页 — 手写笔记拍照数字化整理 App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_markdown: ^0.7.4
+  flutter_math_fork: ^0.7.2
+  http: ^1.2.0
+  http_parser: ^4.0.2
+  image_picker: ^1.1.0
+  shared_preferences: ^2.3.0
+  provider: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  # T12-3：4 份法律文档内置（离线可见，应用商店审核要求）
+  assets:
+    - assets/legal/
+  fonts:
+    # 学情页标题书法体（T5）：本地 ttf，禁止 GoogleFonts 运行时下载
+    - family: MaShanZheng
+      fonts:
+        - asset: assets/fonts/MaShanZheng-Regular.ttf

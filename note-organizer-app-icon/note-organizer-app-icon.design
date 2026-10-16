@@ -1,0 +1,117 @@
+{
+  "data": [
+    {
+      "id": "image-001",
+      "title": "暖色笔记",
+      "type": "image",
+      "version": 1,
+      "createdAt": 1788624376000,
+      "canvasData": {
+        "x": 0,
+        "y": 0,
+        "naturalSize": {
+          "width": 1920,
+          "height": 1920
+        }
+      },
+      "devMetadata": {
+        "imageSrc": "assets/app-icon-warm.jpg"
+      }
+    },
+    {
+      "id": "image-002",
+      "title": "冷色钢笔",
+      "type": "image",
+      "version": 1,
+      "createdAt": 1788624378000,
+      "canvasData": {
+        "x": 480,
+        "y": 0,
+        "naturalSize": {
+          "width": 1920,
+          "height": 1920
+        }
+      },
+      "devMetadata": {
+        "imageSrc": "assets/app-icon-cool.jpg"
+      }
+    },
+    {
+      "id": "image-003",
+      "title": "自然书签",
+      "type": "image",
+      "version": 1,
+      "createdAt": 1788624381000,
+      "canvasData": {
+        "x": 960,
+        "y": 0,
+        "naturalSize": {
+          "width": 1920,
+          "height": 1920
+        }
+      },
+      "devMetadata": {
+        "imageSrc": "assets/app-icon-natural.jpg"
+      }
+    },
+    {
+      "id": "image-004",
+      "title": "冰蓝笔记",
+      "type": "image",
+      "version": 1,
+      "createdAt": 1788624480000,
+      "canvasData": {
+        "x": 1440,
+        "y": 0,
+        "naturalSize": {
+          "width": 1920,
+          "height": 1920
+        }
+      },
+      "devMetadata": {
+        "imageSrc": "assets/app-icon-icy-blue.jpg"
+      }
+    },
+    {
+      "id": "image-005",
+      "title": "雾紫铅笔",
+      "type": "image",
+      "version": 1,
+      "createdAt": 1788624482000,
+      "canvasData": {
+        "x": 1920,
+        "y": 0,
+        "naturalSize": {
+          "width": 1920,
+          "height": 1920
+        }
+      },
+      "devMetadata": {
+        "imageSrc": "assets/app-icon-misty-lavender.jpg"
+      }
+    },
+    {
+      "id": "image-006",
+      "title": "薄荷青回形针",
+      "type": "image",
+      "version": 1,
+      "createdAt": 1788624484000,
+      "canvasData": {
+        "x": 2400,
+        "y": 0,
+        "naturalSize": {
+          "width": 1920,
+          "height": 1920
+        }
+      },
+      "devMetadata": {
+        "imageSrc": "assets/app-icon-mint-teal.jpg"
+      }
+    }
+  ],
+  "config": {
+    "autoLayout": true,
+    "deviceType": "freeSize",
+    "projectName": "笔记整理 App 图标"
+  }
+}

@@ -1,0 +1,37 @@
+node_modules/
+.DS_Store
+dist/
+build/
+.env
+.env.local
+*.log
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+.next/
+coverage/
+
+# Python 后端
+.venv/
+venv/
+*.db
+backend/storage/
+.pytest_cache/
+
+# ── 本仓库公开版刻意不含的东西（个人数据 / 本地环境）──
+# 个人学习素材（真实笔记照片）：本地保留，不入库
+素材库/
+# 真实笔记 OCR 实测原始数据（含笔记正文）
+docs/m0/
+# Android 签名与本地环境
+*.jks
+*.keystore
+key.properties
+local.properties
+# 构建产物（flutter 会一直重新生成）
+.flutter-plugins-dependencies
+frontend/windows/flutter/ephemeral/
+# 内部流程文档（变更说明 / 任务书）
+T*-变更说明.md
+
